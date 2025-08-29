@@ -1,0 +1,144 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    /* position: fixed; */
+     max-width: 100%;
+    background-color: rgb(174, 125, 45);
+    font-family: 'Poppins';
+    height: 100px;
+    display: flex;
+    margin-top: 0px;
+    justify-content: space-between;
+    box-shadow: 0 2px 4px -2px Black;
+    z-index: 1;
+}
+.nav-logo{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+.nav-logo p{
+    color: rgb(8, 35, 8);
+    font-size: 2rem;
+    font-weight: 700;
+}
+.nav-logo img{
+    height: 90px;
+    /* position: relative; */
+    width: 140px;
+    margin-left: 5px;
+    display: flex;
+    justify-content: start; 
+}
+.nav-menu{
+    
+     
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 50px;
+   
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+.nav-menu li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Times, serif;
+    justify-content: center;
+    gap: 2px;
+    cursor: pointer;
+    text-decoration: none;
+     font-weight: 800;
+     color: black
+}
+
+.nav-menu hr{
+   border: none;
+   width:90%;
+   height:3px;
+   border-radius: 10px;
+   background: rgb(99, 10, 10);
+}
+.nav-login-cart{
+    display: flex;
+    align-items: center;
+    gap: 45px;
+}
+.nav-login-cart button{
+    width: 150px;
+    height: 58px;
+    outline: none;
+    border: 1px solid Black;
+    border-radius: 75px;
+    color: #515151;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: white;
+    cursor: pointer;
+}
+.nav-login-cart button:hover{
+    background-color: rgb(186, 228, 186);
+}
+.nav-cart-count{
+    width: 24px;
+    height: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-left: -25px;
+    border-radius: 40%;
+    font-weight: 600;
+    font-size: 16px;
+    background: rgb(220, 13, 13);
+    color: white;
+}
+.cart-logo{
+    display: flex;
+    justify-content: end;
+    height: 60px;
+    width: 60px;
+}
+
+@media (max-width: 768px) {
+  .nav-menu {
+    display: none;
+  }
+
+  .navbar {
+    padding: 15px 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .nav-logo p {
+    font-size: 18px;
+  }
+
+  .nav-login-cart {
+    gap: 12px;
+  }
+
+  .nav-login-cart button {
+    padding: 6px 12px;
+    font-size: 13px;
+  }
+
+  .cart-logo img {
+    width: 24px;
+    height: 24px;
+  }
+
+  .nav-cart-count {
+    font-size: 10px;
+    padding: 1px 5px;
+  }
+}

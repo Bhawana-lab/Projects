@@ -1,0 +1,62 @@
+.new-herb-collections{
+    background:rgba(149, 238, 71, 0.44) ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+   margin-bottom: 100px;
+   
+   
+} 
+.new-herb-collections h1{
+    color: #171717;
+    font-size: 50px;
+    font-weight: 600;
+
+}
+
+.new-herb-collections hr{
+    width: 200px;
+    height: 6px;
+    border-radius: 10px;
+    background: #252525;
+}
+.collections{
+   
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 50px;
+    gap: 25px;
+}
+
+
+@media (max-width: 768px) {
+  .new-herb-collections {
+    padding: 40px 20px;
+  }
+
+  .new-herb-collections h1 {
+    font-size: 24px;
+  }
+
+  .collections {
+    gap: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .new-herb-collections h1 {
+    font-size: 20px;
+  }
+
+  .new-herb-collections hr {
+    width: 80px;
+    height: 2px;
+    margin-bottom: 30px;
+  }
+
+  .collections {
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 15px;
+  }
+}

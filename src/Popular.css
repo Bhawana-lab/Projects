@@ -1,0 +1,68 @@
+.popular{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    height: 90vh;
+     width: 100%;
+} 
+ 
+
+.popular h1{
+    
+    color: #171717;
+    font-size: 50px;
+    font-weight: 600;
+
+}
+
+.popular hr{
+    width: 200px;
+    height: 6px;
+    border-radius: 10px;
+    background: #252525;
+}
+.popular-item{
+    margin-top: 50px;
+    display: grid;
+    gap: 100px;
+    scroll-behavior: smooth;
+    grid-auto-flow: column;
+    grid-auto-columns: 16rem;
+    justify-content: stretch; 
+    overflow: hidden;
+    animation: animate 30s linear infinite;  
+}
+ @keyframes animate{
+    to{
+        translate: calc(1.5 * -148rem);
+    }
+}
+
+
+@media (max-width: 900px) {
+  .popular h1 {
+    font-size: 28px;
+  }
+  
+  .popular hr {
+    width: 60px;
+    margin-bottom: 25px;
+  }
+}
+
+@media (max-width: 600px) {
+  .popular {
+    padding: 0 15px;
+  }
+  
+  .popular-item {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 18px;
+  }
+  
+  .item {
+    max-width: 150px;
+    padding: 12px;
+  }
+}
