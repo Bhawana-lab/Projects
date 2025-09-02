@@ -17,7 +17,7 @@ import Peach from "./assets/Pages/peach.png";
 import Lemon  from "./assets/Pages/lemon.png";
 import Juice from "./assets/Pages/juice.png";
 import Kiwi from "./assets/Pages/kiwi.png";
-import Coriander from "./assets/Pages/coriander.png";
+import Coriander from "./assets/Pages/Coriander.png";
 import HerbalTea from "./assets/Pages/herbaltea.png";
 import Cucumber from "./assets/Pages/cucumber.png";
 import HerbalPowder from "./assets/Pages/herbalpowder.png";
