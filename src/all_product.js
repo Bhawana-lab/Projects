@@ -1,50 +1,11 @@
-import Thyme from "./assets/Pages/thyme.png";
-import Walnut from "./assets/Pages/walnut.png";
-import Rojmerry from "./assets/Pages/rojmerry.png";
-import BlackPlum from "./assets/Pages/black-plum.png";
-import GreenPlum from "./assets/Pages/green-plum.png";
-import Camomile from "./assets/Pages/camomile.png";
-import Buransh from "./assets/Pages/buransh.png";
-import Basil from "./assets/Pages/basil.png";
-import Apple from "./assets/Pages/apple.png";
-import AppleJam from "./assets/Pages/applejam.png";
-import Rose from "./assets/Pages/rose.png";
-import Rajma from "./assets/Pages/rajma.png";
-import Pippermint from "./assets/Pages/pippermint.png";
-import Pear from "./assets/Pages/pear.png";
-import Oragano from "./assets/Pages/oragano.png";
-import Peach from "./assets/Pages/peach.png";
-import Lemon from "./assets/Pages/lemon.png";
-import Juice from "./assets/Pages/juice.png";
-import Kiwi from "./assets/Pages/kiwi.png";
-import HTea from "./assets/Pages/herbaltea.png";
-import Cucumber from "./assets/Pages/cucumber.png";
-import HPowder from "./assets/Pages/herbalpowder.png";
-import CTea from "./assets/Pages/camomiletea.png";
-import BayLeaf from "./assets/Pages/bayleaf.png";
-import AppleJelly from "./assets/Pages/applejelly.png";
-import Apricot from "./assets/Pages/apricot.png";
-import RRajma from "./assets/Pages/red-rajma.png";
-import Pumpkin from "./assets/Pages/pumpkin.png";
-import Parsley from "./assets/Pages/parsley.png";
-import BottleGuard from "./assets/Pages/bottle-guard.png";
-import Tulsi from "./assets/Pages/tulsi.png";
-import Kafal from "./assets/Pages/kafal.png";
-import Malta from "./assets/Pages/malta.png";
-import Linguda from "./assets/Pages/linguda.png";
-import Karela from "./assets/Pages/karela.png";
-import Jackfruit from "./assets/Pages/jackfruit.png";
-import Potato from "./assets/Pages/potato.png";
-import Coriander from "./assets/Pages/coriander.png";
-import DryApricot from "./assets/Pages/dry-apricot.png";
-import ApricotSeed from "./assets/Pages/apricot-seed.png";
+
 const all_product=[
     
     {
         id:1,
         name:"Green Rojmerry",
         category:"herbs",
-        image: Rojmerry,
+        image: "/src/assets/Pages/rojmerry.png",
         new_price: 120.00,
         old_price: 190.00
     },
@@ -54,7 +15,7 @@ const all_product=[
         id:2,
         name:"Red and Green Apple",
         category:"fruit",
-        image: Apple,
+        image: "/src/assets/Pages/apple.png",
         new_price: 120.00,
         old_price: 190.00
     },
@@ -62,7 +23,7 @@ const all_product=[
         id:3,
         name:"Camomile Flower",
         category:"herbs",
-        image: Camomile,
+        image: "/src/assets/Pages/camomile.png",
         new_price: 120.00,
         old_price: 190.00
     },
@@ -70,7 +31,7 @@ const all_product=[
         id:4,
         name:"Basil",
         category:"herbs",
-        image: Basil,
+        image: "/src/assets/Pages/basil.png",
         new_price: 120.00,
         old_price: 190.00
     },
@@ -78,7 +39,7 @@ const all_product=[
         id:5,
         name:"Green Thyme",
         category:"herbs",
-        image: Thyme,
+        image:"/src/assets/Pages/thyme.png",
        new_price: 120.00,
         old_price: 190.00
     },
@@ -86,7 +47,7 @@ const all_product=[
         id:6,
         name:"Walnuts",
         category:"fruit",
-        image: Walnut,
+        image: "/src/assets/Pages/walnut.png",
        new_price: 120.00,
         old_price: 190.00
     },
@@ -94,7 +55,7 @@ const all_product=[
         id:7,
         name:"Black Plum",
         category:"fruit",
-        image: BlackPlum,
+        image:"/src/assets/Pages/black-plum.png",
         new_price: 120.00,
         old_price: 190.00
     },
@@ -102,7 +63,7 @@ const all_product=[
         id:8,
         name:"Rhododendron Flower",
         category:"herbs",
-        image: Buransh,
+        image:"/src/assets/Pages/buransh.png",
        new_price: 120.00,
         old_price: 190.00
     },
@@ -110,7 +71,7 @@ const all_product=[
         id:9,
         name:"Fresh Apple Jam",
         category:"herbalProduct",
-        image: AppleJam,
+        image:"/src/assets/Pages/applejam.png",
        new_price: 120.00,
         old_price: 190.00
     },
@@ -118,7 +79,7 @@ const all_product=[
         id:10,
         name:"Green Plum",
         category:"fruit",
-        image: GreenPlum,
+        image: "/src/assets/Pages/green-plum.png",
       new_price: 120.00,
         old_price: 190.00
     },
@@ -126,7 +87,7 @@ const all_product=[
         id:11,
         name:"Ocimum tenuiflorum(Tulsi)",
         category:"herbs",
-        image:Tulsi,
+        image:"/src/assets/Pages/tulsi.png",
        new_price: 120.00,
         old_price: 190.00
     },
@@ -134,7 +95,7 @@ const all_product=[
         id:12,
         name:"Kidney Beans (White Rajma)",
         category:"vegetable",
-        image: Rajma,
+        image: "/src/assets/Pages/rajma.png",
        new_price: 120.00,
         old_price: 190.00
     },
@@ -142,7 +103,7 @@ const all_product=[
         id:13,
         name:"Pipper-mint",
         category:"herbs",
-        image: Pippermint,
+        image: "/src/assets/Pages/pippermint.png",
        new_price: 120.00,
         old_price: 190.00
     },
@@ -150,7 +111,7 @@ const all_product=[
         id:14,
         name:"Pear",
         category:"fruit",
-        image: Pear,
+        image:"/src/assets/Pages/pear.png",
         new_price: 120.00,
         old_price: 190.00
     },
@@ -158,7 +119,7 @@ const all_product=[
         id:15,
         name:"Oragano",
         category:"herbs",
-        image: Oragano,
+        image: "/src/assets/Pages/oragano.png",
        new_price: 120.00,
         old_price: 190.00
     },
@@ -166,7 +127,7 @@ const all_product=[
         id:16,
         name:"Peach",
         category:"fruit",
-        image: Peach,
+        image: "/src/assets/Pages/peach.png",
        new_price: 120.00,
         old_price: 190.00
     },
@@ -174,7 +135,7 @@ const all_product=[
         id:17,
         name:"Lemon",
         category:"fruit",
-        image: Lemon,
+        image: "/src/assets/Pages/lemon.png",
        new_price: 120.00,
         old_price: 190.00
     },
@@ -182,7 +143,7 @@ const all_product=[
         id:18,
         name:"Rhododendron Flower Juice",
         category:"herbalProduct",
-        image: Juice,
+        image: "/src/assets/Pages/juice.png",
        new_price: 120.00,
         old_price: 190.00
     },
@@ -190,7 +151,7 @@ const all_product=[
         id:19,
         name:"Kiwi",
         category:"fruit",
-        image: Kiwi,
+        image: "/src/assets/Pages/kiwi.png",
        new_price: 120.00,
         old_price: 190.00
     },
@@ -198,7 +159,7 @@ const all_product=[
          id: 20,
         name:"Coriander",
         category: "herbs",
-        image: Coriander,
+        image: "/src/assets/Pages/coriander.png",
        new_price: 120.00,
         old_price: 190.00
     },
@@ -206,7 +167,7 @@ const all_product=[
         id:21,
         name:"Herbal Tea",
         category:"herbalProduct",
-        image: HTea,
+        image:"/src/assets/Pages/herbaltea.png",
        new_price: 120.00,
         old_price: 190.00
     },
@@ -214,7 +175,7 @@ const all_product=[
         id:22,
         name:"Cucumber",
         category:"fruit",
-        image: Cucumber,
+        image: "/src/assets/Pages/cucumber.png",
        new_price: 120.00,
         old_price: 190.00
     },
@@ -222,7 +183,7 @@ const all_product=[
         id:23,
         name:"Herbal Powder",
         category:"herbalProduct",
-        image: HPowder,
+        image: "/src/assets/Pages/herbalpowder.png",
       new_price: 120.00,
         old_price: 190.00
     },
@@ -231,7 +192,7 @@ const all_product=[
         id:24,
         name:"Camomile Tea",
         category:"herbalProduct",
-        image: CTea,
+        image: "/src/assets/Pages/camomiletea.png",
       new_price: 120.00,
         old_price: 190.00
     },
@@ -239,7 +200,7 @@ const all_product=[
         id:25,
         name:"Bay Leaf",
         category:"herbs",
-        image: BayLeaf,
+        image: "/src/assets/Pages/bayleaf.png",
       new_price: 120.00,
         old_price: 190.00
     },
@@ -247,7 +208,7 @@ const all_product=[
         id:26,
         name: "Jackfruit",
         category: "vegetable",
-        image: Jackfruit,
+        image: "/src/assets/Pages/jackfruit.png",
        new_price: 120.00,
         old_price: 190.00
     },
@@ -255,7 +216,7 @@ const all_product=[
         id:27,
         name:"Apple Jelly",
          category:"herbalProduct",
-        image: AppleJelly,
+        image: "/src/assets/Pages/applejelly.png",
      new_price: 120.00,
         old_price: 190.00
     },
@@ -263,7 +224,7 @@ const all_product=[
         id:28,
         name:"Apricot",
          category:"fruit",
-        image: Apricot,
+        image: "/src/assets/Pages/apricot.png",
         new_price: 120.00,
         old_price: 190.00
     },
@@ -271,7 +232,7 @@ const all_product=[
         id:29,
         name:"Pumpkin",
          category:"vegetable",
-        image: Pumpkin,
+        image: "/src/assets/Pages/pumpkin.png",
        new_price: 120.00,
         old_price: 190.00
     },
@@ -279,7 +240,7 @@ const all_product=[
         id:30,
         name:"Parsley",
          category:"herbs",
-        image: Parsley,
+        image: "/src/assets/Pages/parsley.png",
        new_price: 120.00,
         old_price: 190.00
     },
@@ -287,7 +248,7 @@ const all_product=[
         id:31,
         name:"Bottle Guard (Lauki)",
          category:"vegetable",
-        image: BottleGuard,
+        image: "/src/assets/Pages/bottle-guard.png",
      new_price: 120.00,
         old_price: 190.00
     },
@@ -295,7 +256,7 @@ const all_product=[
         id:32,
         name:"Blood Orange",
          category:"fruit",
-        image: Malta,
+        image: "/src/assets/Pages/malta.png",
       new_price: 120.00,
         old_price: 190.00
     },
@@ -303,14 +264,14 @@ const all_product=[
         id:33,
         name:"Pink Rose",
         category:"herbs",
-        image: Rose,
+        image: "/src/assets/Pages/rose.png",
        new_price: 120.00,
         old_price: 190.00
     },{
         id: 34,
         name: "Bayberry (Kafal)",
         category: "fruit",
-        image: Kafal,
+        image: "/src/assets/Pages/kafal.png",
      new_price: 120.00,
         old_price: 190.00
     },
@@ -318,7 +279,7 @@ const all_product=[
         id: 35,
         name: "Fiddlehead Fern",
         category: "vegetable",
-        image: Linguda,
+        image: "/src/assets/Pages/linguda.png",
       new_price: 120.00,
         old_price: 190.00
     },
@@ -326,7 +287,7 @@ const all_product=[
         id: 36,
         name: "Spiny Gourd (Meetha Karela)",
         category: "vegetable",
-        image: Karela,
+        image: "/src/assets/Pages/karela.png",
       new_price: 120.00,
         old_price: 190.00
 
@@ -335,7 +296,7 @@ const all_product=[
         id: 37,
         name:"Kidney Beans (Red Rajma)",
         category:"vegetable",
-        image: RRajma,
+        image: "/src/assets/Pages/red-rajma.png",
       new_price: 120.00,
         old_price: 190.00
 
@@ -344,7 +305,7 @@ const all_product=[
         id: 38,
         name: "Potato",
         category: "vegetable",
-        image: Potato,
+        image: "/src/assets/Pages/potato.png",
        new_price: 120.00,
         old_price: 190.00
     },
@@ -352,7 +313,7 @@ const all_product=[
         id: 39,
         name: "Dry Apricot",
         category: "herbalProduct",
-        image: DryApricot,
+        image: "/src/assets/Pages/dry-apricot.png",
       new_price: 120.00,
         old_price: 190.00
     },
@@ -360,7 +321,7 @@ const all_product=[
         id: 40,
         name: "Dry Apricot Seeds",
         category: "herbalProduct",
-        image: ApricotSeed,
+        image: "/src/assets/Pages/apricot-seed.png",
        new_price: 120.00,
         old_price: 190.00
     },
