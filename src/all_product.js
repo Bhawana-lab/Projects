@@ -37,12 +37,7 @@ import RedRajma from "./assets/Pages/red-rajma.png";
 import Potato from "./assets/Pages/potato.png";
 import DryApricot from "./assets/Pages/dry-apricot.png";
 import ApricotSeed from "./assets/Pages/apricot-seed.png";
-
 import AppleJelly from "./assets/Pages/applejelly.png";
-
-
-
-
 const all_product=[
     
     {
