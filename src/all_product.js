@@ -1,4 +1,4 @@
-import Rojmerry from "./assets/Pages/rojmerry.png";
+import Rojmerry from "/src/assets/Pages/rojmerry.png";
 import Apple from "./assets/Pages/apple.png";
 import Camomile from "./assets/Pages/camomile.png";
 import Basil from "./assets/Pages/basil.png";
