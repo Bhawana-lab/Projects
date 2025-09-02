@@ -38,7 +38,7 @@ import Potato from "./assets/Pages/potato.png";
 import DryApricot from "./assets/Pages/dry-apricot.png";
 import ApricotSeed from "./assets/Pages/apricot-seed.png";
 
-
+import AppleJelly from "./assets/Pages/applejelly.png";
 
 
 
@@ -260,7 +260,7 @@ const all_product=[
         id:27,
         name:"Apple Jelly",
          category:"herbalProduct",
-        image: appleJelly,
+        image: AppleJelly,
      new_price: 120.00,
         old_price: 190.00
     },
