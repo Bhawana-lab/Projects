@@ -1,10 +1,14 @@
-
+import Rojmerry from "./assets/Pages/rojmerry.png";
+import Apple from "./assets/Pages/apple.png";
+import Camomile from "./assets/Pages/camomile.png";
+import Basil from "./assets/Pages/basil.png";
+import HerbalPowder from "./assets/Pages/herbalpowder.png";
 let data_product=[
     
     {
         id:1,
         name:"Green Rojmerry",
-        image: "/src/assets/Pages/rojmerry.png",
+        image: Rojmerry,
         new_price: 120.00,
         old_price: 190.00
     },
@@ -13,28 +17,28 @@ let data_product=[
     {
         id:2,
         name:"Red and Green Apple",
-        image: "/src/assets/Pages/apple.png",
+        image: Apple,
        new_price: 120.00,
         old_price: 190.00
     },
     {
         id:3,
         name:"Camomile Flower",
-        image: "/src/assets/Pages/camomile.png",
+        image: Camomile,
        new_price: 120.00,
         old_price: 190.00
     },
     {
         id:4,
         name:"Basil",
-        image: "/src/assets/Pages/basil.png",
+        image: Basil,
        new_price: 120.00,
         old_price: 190.00
     },
     {
         id: 5,
         name: "Herbal Powder",
-        image:"/src/assets/Pages/herbalpowder.png",
+        image: HerbalPowder,
        new_price: 120.00,
         old_price: 190.00
     }
