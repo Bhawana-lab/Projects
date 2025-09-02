@@ -24,7 +24,7 @@ const Footer=()=>{
                  <a href="https://www.instagram.com/poosk_home_stay?igsh=amY0YXgzZDEzOHQ3 "> <img   src={Instagram} alt="instagram"/> </a>
                 </div>
                 <div className="footer-icons-container">
-                    <a href=""><img  src={Facebook} alt="Facebook"/></a>
+                    <a href="https://m.facebook.com/surendrasinghbisht.poosk/"><img  src={Facebook} alt="Facebook"/></a>
                 </div>
                 <div className="footer-icons-container">
                     <a href="tel:+91 9458357719"><img src={Whatsapp}alt="Whatsapp"/></a>
